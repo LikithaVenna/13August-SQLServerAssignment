@@ -7,4 +7,3 @@ as
 begin
 update StudentTable set studentname = @studname,studentbranch= @studbranch,studentgrade = @studgrade where studentrollno = @studroll
 end
-select * from StudentTable
