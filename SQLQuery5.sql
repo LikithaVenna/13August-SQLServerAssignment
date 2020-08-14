@@ -4,6 +4,7 @@ create proc sp_update
 @studbranch varchar(20),
 @studgrade varchar(20)
 )
+
 as 
 begin
 update StudentTable set studentname = @studname,studentbranch= @studbranch,studentgrade = @studgrade where studentrollno = @studroll
